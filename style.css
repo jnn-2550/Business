@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #b3c7df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding:15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 500px;
+}
+.title{
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.collection{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.button_container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn_display{
+  padding:0.4rem 5.3rem;
+  background-color: #fa7538;
+  font-size: 16px;
+  color: #111111;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.input_field{
+  padding: 0.3rem 2.5rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result{
+  border-top: 1px solid #ccc;
+  padding-top: 0.5rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+.totals{
+  display: flex;
+  justify-content: space-between;
+}
+
+.totals h3,
+p {
+  font-size: 15px;
+  font-weight: 400;
+}

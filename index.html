@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">Product Invoice</p>
+      <div class="collection">
+
+        <div class="items">
+          Product name <input type = "text" name = "productName" id = "productName" class="input_field">
+        </div>
+        <div class="items">
+          Unit price <input type = "number" name = "unitPrice" id = "unitPrice" class="input_field">
+        </div>
+        <div class="items">
+          Quantity <input type = "number" name = "quantity" id = "quantity" class="input_field">
+        </div>
+      </div>
+      <div class="button_container">
+        <button class = "calculateButton btn_display" id="calculateButton">CALCULATE</button>
+      </div>
+      <div class="result">
+        <div class="totals">
+          <h3>Subtotal</h3>
+          <p id="subtotal"> Ksh_______</p>
+        </div>
+        <div class="totals">
+          <h3>Tax</h3>
+          <p id="tax"> Ksh_______</p>
+        </div>
+        <div class="totals">
+          <h3>Total</h3>
+          <p id="total"> Ksh_______</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
